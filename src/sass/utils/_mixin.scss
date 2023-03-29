@@ -1,0 +1,32 @@
+/* -------------------------------- Margin -------------------------------- */
+@mixin margin($top, $right, $bottom, $left) {
+  margin-top: $top;
+  margin-right: $right;
+  margin-bottom: $bottom;
+  margin-left: $left;
+}
+
+/* -------------------------------- Padding -------------------------------- */
+@mixin padding($top, $right, $bottom, $left) {
+  padding-top: $top;
+  padding-right: $right;
+  padding-bottom: $bottom;
+  padding-left: $left;
+}
+
+// Fonts
+@mixin get-font-style($fweight, $fsize, $lheight, $lspasing) {
+  font-weight: $fweight;
+  font-size: $fsize;
+  line-height: $lheight;
+  letter-spacing: $lspasing;
+}
+
+// Img
+@mixin get-img-styles {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  max-height: 100%;
+}

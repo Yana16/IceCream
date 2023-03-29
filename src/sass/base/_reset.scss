@@ -1,0 +1,28 @@
+ul {
+  @include margin(0, 0, 0, 0);
+  @include padding(0, 0, 0, 0);
+
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  //  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+svg {
+  fill: currentColor;
+}
